@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Munch</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+        <!-- - create.html ==> Page qui comporte un formulaire, permettant de créer un apprenant -->
+    
+    <ul class="topnav">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="students.html">Apprenants</a></li>
+        <li><a href="student.html">Apprenant</a></li>
+        <li><a href="edit.html">Editer</a></li>
+        <li><a class="active" href="create.html">Créer</a></li>
+        <li><a href="delete.html">Supprimer</a></li>
+    </ul>
+
+    <h1>un développeur full stack</h1>
+
+    <h4>C'est ici que l'on va ajouter un apprenant.</h4>
+
+    <form action="/ma-page-de-traitement" method="post">
+        <div>
+            <label for="lastname">Nom</label>
+            <input type="text" id="name" name="lastname">
+        </div>
+        <div>
+            <label for="firstname">Prénom</label>
+            <input type="text" id="name" name="firstname">
+        </div>
+        <div>
+            <label for="age">Age</label>
+            <input type="text" id="name" name="age">
+        </div>
+        <div>
+            <label for="mail">E-mail</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="phone_number">Numéro de téléphone</label>
+            <input type="text" id="name" name="phone_number">
+        </div>
+    </form>
+
+    <button type="button">Valider</button>
+
+    <div id="student-infos"></div>
+
+    <script src="js/scriptCreate.js"></script>
+
+
+</body>
+</html>

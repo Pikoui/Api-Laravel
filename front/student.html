@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Miam</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+        <!-- intern.html ==> Page qui permet d'afficher un seul apprenant via un <input> et un <button> -->
+    
+    <ul class="topnav">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="students.html">Apprenants</a></li>
+        <li><a class="active" href="student.html">Apprenant</a></li>
+        <li><a href="edit.html">Editer</a></li>
+        <li><a href="create.html">Créer</a></li>
+        <li><a href="delete.html">Supprimer</a></li>
+    </ul>
+
+    <h1>dans lyon. Puis un jour,</h1>
+
+    <h4>Ici, vous pouvez chercher un apprenant à partir de son ID.</h4>
+
+    <input type="number" placeholder="vas-y tape !" id="student-id" min=1>
+    <button type="button">cherche !</button>
+
+    <div id="student-infos"></div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
